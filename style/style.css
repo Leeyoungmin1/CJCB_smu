@@ -9,9 +9,9 @@
 .nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-inline: 30px;
+  padding-inline: 250px;
   text-transform: uppercase;
-  background-color: antiquewhite;
+  background-color: #deecf1;
 }
 .nav-left {
   display: grid;
@@ -19,6 +19,7 @@
 }
 .nav-right {
   display: grid;
+  text-align: center;
 }
 .nav-right .menu {
   display: grid;
@@ -28,7 +29,37 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.main-wrap {
+.main-wrap .container .hero_title {
+  margin-top: 50px;
+  font-size: 3rem;
+  text-align: center;
+}
+.main-wrap .container .character-title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.main-wrap .container .character-title_title {
+  font-size: 60px;
+}
+.main-wrap .container .character-introduce {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 60%;
+  padding: 40px;
+  padding-block: 60px;
+  margin-inline: auto;
+  background-color: #deecf1;
+}
+.main-wrap .container .character-introduce_textbox_name {
+  margin-top: 0;
+  font-size: 40px;
+}
+.main-wrap .container .character-introduce_textbox_text .introduce-big {
+  margin-top: 30px;
+  font-weight: 700;
+}
+.main-wrap .container .character-introduce_textbox_text .introduce-small {
+  margin-top: 5px;
 }
