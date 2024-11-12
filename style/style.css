@@ -13,6 +13,7 @@
   padding-block: 10px;
   padding-inline: 20px;
   margin-inline: auto;
+  margin-top: 20px;
   background-color: #deecf1;
   border-radius: 50px;
 }
@@ -93,6 +94,15 @@
   text-align: center;
 }
 .main-wrap .container .story-concept_title {
+  margin-top: 200px;
+  font-size: 53px;
+}
+.main-wrap .container .episode {
+  max-width: 60%;
+  margin-inline: auto;
+  text-align: center;
+}
+.main-wrap .container .episode-concept_title {
   margin-top: 200px;
   font-size: 53px;
 }

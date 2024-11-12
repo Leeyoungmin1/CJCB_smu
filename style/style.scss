@@ -14,6 +14,7 @@ $main-color: #deecf1;
   padding-block: 10px;
   padding-inline: 20px;
   margin-inline: auto;
+  margin-top: 20px;
   background-color: $main-color;
   border-radius: 50px;
 }
@@ -125,6 +126,19 @@ $main-color: #deecf1;
     }
 
     .story {
+      max-width: 60%;
+      margin-inline: auto;
+      text-align: center;
+
+      &-concept {
+        &_title {
+          margin-top: 200px;
+          font-size: 53px;
+        }
+      }
+    }
+
+    .episode {
       max-width: 60%;
       margin-inline: auto;
       text-align: center;
