@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 30px;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+
+  &-left {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  &-right {
+    display: grid;
+
+    .menu {
+      display: grid;
+
+      &-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+    }
+  }
+}
+
+.main-wrap {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
