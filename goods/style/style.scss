@@ -1,0 +1,103 @@
+$main-color: #deecf1;
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-inline: 250px;
+  text-transform: uppercase;
+  background-color: $main-color;
+
+  &-left {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  &-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    list-style: none;
+
+    &-link {
+      display: grid;
+      text-decoration: none;
+    }
+
+    .menu {
+      display: grid;
+
+      &-text {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
+    }
+  }
+}
+
+.goods {
+  &_wrap {
+  }
+
+  &-hero {
+    &-title {
+    }
+
+    &-text {
+    }
+
+    &-img {
+    }
+  }
+
+  &-calender {
+    &-title {
+    }
+
+    &-img {
+    }
+
+    &-text {
+    }
+  }
+
+  &-keyring {
+    &-title {
+    }
+
+    &-img {
+    }
+
+    &-text {
+    }
+  }
+
+  &-sticker {
+    &-title {
+    }
+
+    &-img {
+    }
+
+    &-text {
+    }
+  }
+
+  &-memo {
+    &-title {
+    }
+
+    &-img {
+    }
+
+    &-text {
+    }
+  }
+}
